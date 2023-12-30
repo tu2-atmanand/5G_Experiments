@@ -46,7 +46,7 @@ The following minimum configuration was set as a condition.
 
 The built simulation environment is as follows.
 
-![Alt text](image-1.png)
+![Alt text](Attachments/image-1.png)
 The 5GC / UE / RAN used are as follows.
 
 - 5GC - free5GC v3.2.1 (2023.02.12) - <https://github.com/free5gc/free5gc>
