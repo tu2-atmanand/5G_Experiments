@@ -9,29 +9,27 @@
 ### 1. When UPF-1 was connected to UE
 
 **Following were the configuration in webconsole set for UPF-1 :**
-![[Pasted image 20231230161233.png]]
+![image](Attachments/image1.png)
 
 **Output of iperf3 command :**
-![[Pasted image 20231230161348.png]]
+![image](Attachments/image2.png)
 
-**One File was sent from UE to UPF-1 : **
-![[Pasted image 20231230161442.png]]
+**One File was sent from UE to UPF-1 :**
+![image](Attachments/image3.png)
 
 **Latency test :**
-![[Pasted image 20231230161518.png]]
-
-
+![image](Attachments/image4.png)
 
 ### 2. When UPF-2 was connected to UE
 
 **Following were the configuration in webconsole set for UPF-1 :**
-![[Pasted image 20231230161601.png]]
+![image](Attachments/image5.png)
 
 **Output of iperf3 command :**
-![[Pasted image 20231230161614.png]]
+![image](Attachments/image6.png)
 
-**One File was sent from UE to UPF-1 : **
-![[Pasted image 20231230161632.png]]
+**One File was sent from UE to UPF-1 :**
+![image](Attachments/image7.png)
 
 **Latency test :**
-![[Pasted image 20231230161645.png]]
+![image](Attachments/image8.png)

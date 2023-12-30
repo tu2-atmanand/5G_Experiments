@@ -9,10 +9,6 @@ Also Raspberry Pi was used as a UPF for simulations. For this free5GC was instal
 
 During this simulation, two PCs, 1 laptop and one Raspberry Pi were used.  The Core, gNB and UE2 were running on Main PC. UP1 was running on Raspberry Pi, UP-2 and UE-1 were running on Laptop and UP3 was running on Behind PC.
 ![Alt text](image.png)
-<<<<<<< HEAD
-=======
-
->>>>>>> 2786a0ca67ae0755bff3a0775f5a4e881b2c7b56
 
 ## Process for setting up the environment
 
@@ -21,11 +17,7 @@ During this simulation, two PCs, 1 laptop and one Raspberry Pi were used.  The C
 3. After the setup as per the configuration files from the previous setup, only the Corresponding IP addresses will need to be changed, by comparing the previous setup and this setup.
 4. Also in virtualbox network configuration for each machine will need to be updated, so the machines gets dynamic IP addresses to the network which they are connected to. (Please make sure all the Host machines are connected to same LAN). This can be done as follows :
 
-<<<<<<< HEAD
-![Pasted image 20231230164110.png](Attachments/Pasted%20image%2020231230164110.png)
-=======
-![image](Attachments/Pasted image 20231230164110.png)
->>>>>>> 2786a0ca67ae0755bff3a0775f5a4e881b2c7b56
+![image](Attachments/image4.png)
 
 Disable all other Adapters by unchecking the Enable Network Adapter option. And only keep the Adapter 1 enabled with Bridge Adapter as 'Attached to' option and the 'Name' value will be specific to your Host Machine.
 

@@ -16,7 +16,7 @@
 
 **2. When moved far away**
 
-![[Attachments/Pasted image 20231225161746.png]]
+![image](Attachments/image2.png)
 
 > Problem : this is working from UE2 to the UP2 through 10.61.0.2. But the other UE which has been connected
 > Solution : Just that the other use has to be created and a new IMSI number is given now both can work simultaneously.
@@ -26,6 +26,6 @@
 ### Latency test from UE-2 to UE-1
 
 **1. When Kept close**
-![[Attachments/Pasted image 20231225210811.png]]
+![image](Attachments/image3.png)
 
 **2. Far away**
