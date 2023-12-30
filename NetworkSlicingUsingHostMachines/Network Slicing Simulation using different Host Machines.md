@@ -8,17 +8,18 @@ Also Raspberry Pi was used as a UPF for simulations. For this free5GC was instal
 ## Setup used for this simulation
 
 During this simulation, two PCs, 1 laptop and one Raspberry Pi were used.  The Core, gNB and UE2 were running on Main PC. UP1 was running on Raspberry Pi, UP-2 and UE-1 were running on Laptop and UP3 was running on Behind PC.
-![Alt text](NetworkSlicingUsingHostMachines/image.png)
+![Alt text](image.png)
 
 
 ## Process for setting up the environment
 
-1. The basic procedure was simple, which can be easily configured from the previous simulation setup [NetworkSlicingUsing3-UPFs_Setup]().
+1. The basic procedure was simple, which can be easily configured from the previous simulation setup [NetworkSlicingUsing3-UPFs_Setup](https://github.com/tu2-atmanand/5G_Experiments/tree/main/NetworkSlicingUsing3-UPFs_Setup).
 2. But you will need to run only the required machines (VMs) on the corresponding Host Machines you are using for the simulation.
 3. After the setup as per the configuration files from the previous setup, only the Corresponding IP addresses will need to be changed, by comparing the previous setup and this setup.
 4. Also in virtualbox network configuration for each machine will need to be updated, so the machines gets dynamic IP addresses to the network which they are connected to. (Please make sure all the Host machines are connected to same LAN). This can be done as follows :
 
-![[Pasted image 20231230164110.png]]
+![image](Attachments/Pasted image 20231230164110.png)
+
 Disable all other Adapters by unchecking the Enable Network Adapter option. And only keep the Adapter 1 enabled with Bridge Adapter as 'Attached to' option and the 'Name' value will be specific to your Host Machine.
 
 5. After, this updates on all VMs, start the machines with the functions one by one, ie. run the scripts so the respective components of 5G architecture comes online. Run the components in the following order, from the respective VMs and the corresponding Host machines : 
