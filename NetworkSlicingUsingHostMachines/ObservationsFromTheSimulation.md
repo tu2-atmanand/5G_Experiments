@@ -2,7 +2,7 @@
 
 ### Setup for 5G Network Slicing Simulation From Different PCs Setup
 
-![Alt text](NetworkSlicingUsingHostMachines/image.png)
+![Alt text](image.png)
 
 1. Sometimes the UPF cannot able to provide internet to the UEs connected, since the UPFs are configured on VMs (Guest Machines) and they have some network restrictions.
 
