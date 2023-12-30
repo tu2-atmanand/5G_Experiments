@@ -1,0 +1,20 @@
+upfcfg.yaml 2022-08-11 16:52:48.563998874 +0900
+ # The listen IP and nodeID of the N4 interface on this UPF (Can't set to 0.0.0.0)
+ pfcp:
+  addr: 192.168.0.145   # IP addr for listening
+  nodeID: 192.168.0.145 # External IP or FQDN can be reached
+   retransTimeout: 1s # retransmission timeout
+   maxRetrans: 3 # the max number of retransmission
+   # The IP list of the N3/N9 interfaces on this UPF
+   # If there are multiple connection, set addr to 0.0.0.0 or list all the addresses
+   ifList:
+    - addr: 192.168.0.145
+       type: N3       # name: upf.5gc.nctu.me
+       # ifname: gtpif
+ # The DNN list supported by UPF
+ dnnList:
+   - dnn: internet # Data Network Name
+     cidr: 10.61.0.0/16 # Classless Inter-Domain Routing for assigned IPv4 pool of UE
+     # natifname: eth0
+
+ logger: # log output setting
