@@ -1,4 +1,4 @@
- ![[Pasted image 20230927173412.jpg]]
+ ![[WhatsApp Image 2023-12-30 at 21.02.53_83f7b4f9.jpg]]
 
 > Main link for this simulation : <https://github.com/s5uishida/free5gc_ueransim_snssai_upf_sample_config>
 >
@@ -67,17 +67,6 @@ If you want to save as pcap files
 > sudo tcpdump -i any -w netSlicing-UE1.pcap
 
 > sudo ./start_UE_UPF_Expt.sh
-
-- Permission : if we can use the cow monitoring device in our project.
-- Permission : Can we have a video from the farm for cow monitoring, so that we can show that in our project.
-- Learn about if we can control drone using 4g testbed.
-
-> Learn testbed
-
-Paper reserach
-Motor Connection
-MQTT
-
 
 
 
