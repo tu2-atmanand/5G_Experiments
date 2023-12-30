@@ -12,7 +12,7 @@
 
 **1. When Kept close**
 
-![[Attachments/Pasted image 20231225161546.png]]
+![image](Attachments/image1.png)
 
 **2. When moved far away**
 
