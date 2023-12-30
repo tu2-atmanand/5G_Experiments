@@ -2,7 +2,7 @@
 
 ### Setup for 5G Network Slicing Simulation
 
-![Alt text](image-1.png)
+![Alt text](Attachments/image-1.png)
 
 ## Tasks
 
