@@ -1,9 +1,11 @@
+# My Observations from the Simulation
+
 For this simulations, we use VMs from different Host machines, hence some network configurations was required to make the VMs visible on the LAN, so VMs from other PCs can connect (ping) to VMs on another PC.
 Also Raspberry Pi was used as a UPF for simulations. For this free5GC was installed on the bare Host OS of the RPI, which gave much more performance advantages and few more network advantages.
 
-> Few problems were faced and resolved while configuring RPI as UPF, this can be viewed here : [[Building New UPF on RPI]]
+> Few problems were faced and resolved while configuring RPI as UPF, this can be viewed here : [Building New UPF on RPI]([Building New UPF on RPI.md](https://github.com/tu2-atmanand/5G_Experiments/blob/main/NetworkSlicingUsingHostMachines/Building%20New%20UPF%20on%20RPI.md))
 
-> After the simulation, the observations has been recorded here : [[ObservationsFromTheSimulation]]
+> After the simulation, the observations has been recorded here : [ObservationsFromTheSimulation](https://github.com/tu2-atmanand/5G_Experiments/blob/main/NetworkSlicingUsingHostMachines/ObservationsFromTheSimulation.md)
 
 ## Setup used for this simulation
 
