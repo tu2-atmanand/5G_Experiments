@@ -1,6 +1,8 @@
-# free5GC 5GC & UERANSIM UE / RAN Sample Configuration - Select UPF based on S-NSSAI - 3 UPF
->
-> On Single Host Machine (Completely inside Virtualbox)
+# 5G Network Slicing Simulation for 3 UPFs Setup Using Free5GC & UERANSIM
+
+> On Single Host Machine (All components/systems inside Virtualbox)
+
+## free5GC 5GC & UERANSIM UE / RAN Sample Configuration - Select UPF based on S-NSSAI - 3 UPF
 
 This describes a very simple configuration that uses free5GC and UERANSIM to select the UPF based on S-NSSAI. For 3 UPF Setup.
 
@@ -1165,7 +1167,7 @@ Next, configure NAPT.
 First run the 5GC, then UERANSIM (UE & RAN implementation).
 <a id="run_up"></a>
 
-### Run free5GC 5GC U-Plane1, 2 & 3
+### Run free5GC 5GC U-Plane 1, 2 & 3
 
 First, run free5GC 5GC U-Planes. Please see [here](https://github.com/free5gc/free5gc/issues/170#issuecomment-773214169) for the reason.  
 **Note. It was improved on 2022.11.08, and you don't have to worry about the startup order of C-Plane and U-Plane.**
