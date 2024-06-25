@@ -1,4 +1,4 @@
-# Network Slicing simulation Using Different Host Machines
+# Network Slicing simulation Using UPF as Physical RPI
 
 For this simulations, we use VMs from different Host machines, hence some network configurations was required to make the VMs visible on the LAN, so VMs from other PCs can connect (ping) to VMs on another PC.
 Also Raspberry Pi was used as a UPF for simulations. For this free5GC was installed on the bare Host OS of the RPI, which gave much more performance advantages and few more network advantages.
